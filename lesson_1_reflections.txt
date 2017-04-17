@@ -1,0 +1,20 @@
+Viewing the difference between two versions of a file helped to see the bug in it by
+1. Starting from a bug-free version, we know that the bug was introduced by a recent change made, therefore we know that the bug is located in the lines with the changes.
+
+2. Viewing the difference helps concentrate on the portion of the text with the bug, without the possible information overload resulting from viewing the entire file.
+
+Pros of manual commits
+	This helps you decide at what point a logical change has been made and then commit at that point
+
+	Ensures the commits are logical (at least from the users viewpoint)
+
+Cons of manual commits
+	You can forget to commit often enough
+
+Saving Multiple Files in One Commit
+	This is important because it helps to synchronize the current condition of all the files in each commit, and makes it easy for the user to track the state of the project (which in most cases includes multiple files) in each commit.
+
+Using Git to View History
+	git log can be used to view the commit history and also identify the commit IDs to use for git diff
+
+	git diff is used to view the difference between two commits
