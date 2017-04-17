@@ -15,3 +15,13 @@ How is the staging area different from the working directory and the repository?
 How can you use the stagina area to make sure you have one commit per logical change?
 	
 	You can use the staging area to ensure you have one logical change per commit by including the necessary files for a single commit in the staging area before you commit.
+
+What are some situatios when branches would be helpful in keeping your history organised? How would branches help?
+
+	Some situations when branches would be useful in keeping your history organised are:
+	1. When you need to create a different version of a code, while keeping the original version.
+	2. When you need to try out an experimental feature in your code.
+	3. When you're trying to optimize your code and you are unsure whether the optimizatoin would lead to an improvement or not.
+
+	Branches enable you to keep your master commit, while you can checkout and make changes on the branch.
+	
