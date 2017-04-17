@@ -25,3 +25,8 @@ What are some situatios when branches would be helpful in keeping your history o
 
 	Branches enable you to keep your master commit, while you can checkout and make changes on the branch.
 	
+How do the diagrams help you visualize the branch structure?
+
+	The diagrams help you visualize the branch structure by showing all the branches, and letting you trace back from a commit through its parent, and also helps you determine reachability
+
+	
