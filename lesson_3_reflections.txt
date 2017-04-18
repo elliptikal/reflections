@@ -14,3 +14,7 @@ Describe the differences between forks, clones and branches. When would you use 
 	
 	Forking is usually cloning from one GitHub repo to a copy of another GitHub repo
 
+What is the benefit of having a copy of the last know state of the remote stored locally?
+
+	This enables you to compare the last state of the remote to the latest commit of the master branch and resolve conflicts before you merge and push to the remote.
+
