@@ -35,4 +35,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	Using git diff is a little meaningless, becuase the chronological order does not reflect the order in which the changes were made, but git show can be used to compare a specific commit with it's parent.
 
+What are the pros and cons of Git's automatic merging vs always doing merges manually.
+
+	Automatic merging is easier, however you still need to resolve conflicts manually. So it give the ease of automatic merging, while offering the flexibility of switching to the manual mode whenever there is a conflict.
+
 	
