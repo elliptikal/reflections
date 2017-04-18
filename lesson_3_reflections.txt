@@ -21,3 +21,7 @@ What is the benefit of having a copy of the last know state of the remote stored
 How would you collaborate without using GitHub? What would be easier, and what would be harder?
 
 	Collaborating without GitHub would involve using a cloud based storage like google drive or dropbox. Sharing codes would be easier, also keeping track of code versions would be a nightmare. Also merging different versions would have to be done manually and conflicts would have to be detected and fixed manually as well.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	You might want to make changes in a separate branch rather than the master branch if you want to preserve the commits in the master branch or if you want to collaborate with someone.
