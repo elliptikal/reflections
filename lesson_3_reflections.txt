@@ -18,3 +18,6 @@ What is the benefit of having a copy of the last know state of the remote stored
 
 	This enables you to compare the last state of the remote to the latest commit of the master branch and resolve conflicts before you merge and push to the remote.
 
+How would you collaborate without using GitHub? What would be easier, and what would be harder?
+
+	Collaborating without GitHub would involve using a cloud based storage like google drive or dropbox. Sharing codes would be easier, also keeping track of code versions would be a nightmare. Also merging different versions would have to be done manually and conflicts would have to be detected and fixed manually as well.
