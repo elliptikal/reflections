@@ -29,4 +29,10 @@ How do the diagrams help you visualize the branch structure?
 
 	The diagrams help you visualize the branch structure by showing all the branches, and letting you trace back from a commit through its parent, and also helps you determine reachability
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When we merge two branches together we represent it as a new tip to the master branch. The previous branch is lost and the commit history for the previous branch can now be reached from the new master tip. However, the commit history of the two branches are now listed chronologically under the new master tip.
+
+	Using git diff is a little meaningless, becuase the chronological order does not reflect the order in which the changes were made, but git show can be used to compare a specific commit with it's parent.
+
 	
